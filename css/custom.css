@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Arvo-Regular;
+    src: url("../fonts/Arvo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Arvo-Bold;
+    src: url("../fonts/Arvo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.arvoregular {
+    font-family: Arvo-Regular;
+
+}
+
+.arvobold {
+    font-family: Arvo-Bold;
+
+}
+
+.navbar {
+    background-color: #222222;
+}
+
+.nav-item {
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.logo-top {
+    margin-left: 100%;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 15%;
+
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 50px;
+
+
+}
+
+.title {
+    font-size: 60px;
+}
+
+.learnmore_button {
+    background-color: #f74c3c;
+    font-size: 30px;
+}
+
+.learnmore_button:hover {
+
+    background-color: rgb(220, 62, 62);
+
+}
+
+
+
+.textcolor {
+    color: #f74c3c;
+
+}
+
+.get-involved {
+    background-color: #f5f5f5;
+}
+
+
+.hr {
+    width: 140px;
+    border-top: 1px solid #f74c3c;
+}
+
+.fa-stack:hover {
+    -ms-transform: scale(1.02);
+    /* IE 9 */
+    -webkit-transform: scale(1.02);
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+.btn-involved {
+    color: #f74c3c;
+    background-color: white;
+    border: 0.5px solid rgb(204, 204, 204);
+}
+
+footer {
+    background-color: #f74c3c;
+}
+
+.bottom-image {
+    padding: 17vh 0 4vh 10%;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    /* display: none; */
+}
+
+.fa-circle-chevron-up {
+    color: #222222;
+
+
+}
+
+.fa-circle-chevron-up:hover {
+    color: #424242;
+
+
+}
+
+@media screen and (max-width: 1199px) {
+    .logo-top {
+        margin-left: 35%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .fa-stack {
+        margin-top: 50px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .logo-top {
+        margin-left: 0;
+
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+}
