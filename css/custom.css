@@ -17,6 +17,11 @@ html,
 body {
     margin: 0;
     padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .arvoregular {
@@ -118,12 +123,18 @@ footer {
     padding: 17vh 0 4vh 10%;
 }
 
-.back-to-top {
+
+
+
+
+
+#back-to-top {
+    color: #222222;
     position: fixed;
     bottom: 25px;
     right: 25px;
-
 }
+
 
 .fa-circle-chevron-up {
     color: #222222;
